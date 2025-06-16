@@ -1,0 +1,48 @@
+{
+    "core": {
+      "obsidian_black": {
+        "hex": "#0C0C0C",
+        "description": "Base layer. Pure void. Represents foundational depth."
+      },
+      "ash_graphite": {
+        "hex": "#2B2B2B",
+        "description": "Primary dark gray. For surfaces, containers, and soft contrast."
+      },
+      "bone_white": {
+        "hex": "#EAE7DC",
+        "description": "Background. Aged ivory, evokes discipline without coldness."
+      },
+      "slate_steel": {
+        "hex": "#4C5A61",
+        "description": "Muted gray-blue. Invokes intellect, subtle cold fire."
+      }
+    },
+    "accent": {
+      "crimson_signal": {
+        "hex": "#C1121F",
+        "description": "Sharp call to action. Warning and clarity. Use sparingly."
+      },
+      "iron_ochre": {
+        "hex": "#A35E35",
+        "description": "Earth-scorched rust. For highlighting constructiveness and grounded will."
+      },
+      "deep_indigo": {
+        "hex": "#3F3CBB",
+        "description": "Mystical intelligence. Use to signal agentic systems or AI elements."
+      },
+      "signal_gold": {
+        "hex": "#C6A300",
+        "description": "Rare. Precision emphasis. Use to mark rare truths or strategic leverage points."
+      }
+    },
+    "support": {
+      "fog_grey": {
+        "hex": "#B0B3B8",
+        "description": "Light neutral. Use for disabled states, metadata, or background grids."
+      },
+      "charcoal_tint": {
+        "hex": "#1A1A1A",
+        "description": "Slightly raised black. Useful for shadows, layering, or inset contrast."
+      }
+    }
+  }
