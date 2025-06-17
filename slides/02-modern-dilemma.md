@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# The Modern Coder's Dilemma {.text-5xl.font-bold.mb-12.text-slate-steel}
+# The Modern Coder's Dilemma
 
 <div class="space-y-12">
   <div class="flex items-start space-x-4">

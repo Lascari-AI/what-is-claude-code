@@ -1,24 +1,240 @@
+/* Scientific Theme Color Palette */
+
 :root {
-  /* default theme color */
-  /* can be overrided by uses `themeConfig` option */
-  --slidev-theme-primary: #5d8392;
+  /* Primary Colors */
+  --theme-bg-cream: #F5EFE6;
+  --theme-text-charcoal: #2C3E3B;
+  
+  /* Accent Colors */
+  --theme-atom-red: #D4483D;
+  --theme-atom-lines: #4D4D4D;
+  --theme-graduation-orange: #E87529;
+  --theme-microscope-teal: #3B8B8F;
+  --theme-microscope-arm: #2C3E3B;
+  --theme-beaker-teal: #6CB0B2;
+  --theme-beaker-outline: #8AB8B8;
+  
+  /* Base color mappings */
+  --background: var(--theme-bg-cream);
+  --foreground: var(--theme-text-charcoal);
+  --primary: var(--theme-microscope-teal);
+  --secondary: var(--theme-graduation-orange);
+  --accent: var(--theme-atom-red);
+  --muted: var(--theme-atom-lines);
+  --highlight: var(--theme-beaker-teal);
+  --subtle: var(--theme-beaker-outline);
+  
+  /* Semantic mappings for existing variables */
+  --cyan: var(--theme-beaker-teal);
+  --green: var(--theme-microscope-teal);
+  --orange: var(--theme-graduation-orange);
+  --pink: var(--theme-beaker-outline);
+  --purple: var(--theme-microscope-teal);
+  --red: var(--theme-atom-red);
+  --yellow: var(--theme-graduation-orange);
+  --comment: var(--theme-atom-lines);
+  --current-line: #E8E2D9; /* Slightly darker cream */
 }
 
-.slidev-layout.cover,
-.slidev-layout.intro {
-  @apply h-full grid;
+/* ℹ️ #app increases the specificity of .dark selector from upstream layout styles  */
+#app {
+  #slide-content {
 
-  h1 {
-    @apply text-6xl leading-20;
+    --at-apply: text-$foreground bg-$background !important;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      --at-apply: text-$foreground;
+    }
+
+    strong {
+      --at-apply: text-$orange;
+    }
+
+    em {
+      --at-apply: text-$yellow;
+    }
+
+    a {
+      --at-apply: text-$cyan;
+    }
+
+    ul,
+    ol {
+      li::marker {
+        --at-apply: text-$cyan;
+      }
+    }
+
+    blockquote {
+      --at-apply: bg-transparent text-$yellow border-none;
+
+      /* ℹ️ "font-italic" isn't working */
+      font-style: italic;
+    }
+
+    kbd {
+      --at-apply: text-$green;
+    }
+
+    /* ℹ️ Update background color of code. We made it slightly different from slide bg */
+    .slidev-code.shiki {
+      background: #FAFAF8 !important; /* Slightly off-white */
+    }
+
+    :not(pre)>code {
+      --at-apply: bg-transparent text-$green;
+    }
   }
 
-  h1 + p {
-    @apply -mt-2 opacity-50 mb-4;
+  /* Layout: Cover, Intro */
+  .slidev-layout.cover,
+  .slidev-layout.intro {
+    --at-apply: h-full grid;
+
+    h1 {
+      --at-apply: text-6xl leading-20 text-$foreground;
+    }
+
+    h1+p {
+      --at-apply: -mt-2 text-$comment mb-4;
+    }
+
+    p+h2,
+    ul+h2,
+    table+h2 {
+      --at-apply: mt-10;
+    }
   }
 
-  p + h2,
-  ul + h2,
-  table + h2 {
-    @apply mt-10;
+  /* Layout: Face */
+  .slidev-layout.fact {
+    --at-apply: text-center grid h-full;
+
+    h1 {
+      --at-apply: text-8xl font-700;
+    }
+
+    h1+p {
+      --at-apply: font-700 text-2xl;
+    }
+  }
+
+  /* Layout: Statement */
+  .slidev-layout.statement {
+    --at-apply: text-center grid h-full;
+
+    h1 {
+      --at-apply: text-6xl font-700;
+    }
+  }
+
+  /* Layout: Section */
+  .slidev-layout.section {
+    h1 {
+      --at-apply: text-6xl font-500 leading-20;
+    }
+  }
+
+  /* Layout: Face */
+  .slidev-layout.fact {
+    --at-apply: text-center grid h-full;
+
+    h1 {
+      --at-apply: text-8xl font-700;
+    }
+
+    h1+p {
+      --at-apply: font-700 text-2xl;
+    }
+  }
+
+  /* Layout: Quote */
+  .slidev-layout.quote {
+    --at-apply: grid h-full;
+
+    h1+p {
+      --at-apply: mt-2;
+    }
+  }
+
+  /* Layout: Author */
+  .slidev-layout.author {
+    img {
+      --at-apply: rounded-full mx-auto;
+    }
+
+    h1 {
+      --at-apply: text-3xl font-600 mb-0 next-[p]-mt-2;
+    }
+
+    h1+p {
+      --at-apply: max-w-40ch mx-auto;
+    }
+
+    footer {
+      --at-apply: pt-16 text-sm flex justify-center items-center;
+
+      a {
+        --at-apply: ms-2 me-6;
+      }
+
+      a:not(:hover) {
+        color: inherit !important;
+      }
+    }
+  }
+}
+/* Utility Classes for Theme Colors */
+.text-cream { color: var(--theme-bg-cream); }
+.text-charcoal { color: var(--theme-text-charcoal); }
+.text-atom-red { color: var(--theme-atom-red); }
+.text-atom-lines { color: var(--theme-atom-lines); }
+.text-graduation-orange { color: var(--theme-graduation-orange); }
+.text-microscope-teal { color: var(--theme-microscope-teal); }
+.text-beaker-teal { color: var(--theme-beaker-teal); }
+.text-beaker-outline { color: var(--theme-beaker-outline); }
+
+.bg-cream { background-color: var(--theme-bg-cream); }
+.bg-charcoal { background-color: var(--theme-text-charcoal); }
+.bg-atom-red { background-color: var(--theme-atom-red); }
+.bg-atom-lines { background-color: var(--theme-atom-lines); }
+.bg-graduation-orange { background-color: var(--theme-graduation-orange); }
+.bg-microscope-teal { background-color: var(--theme-microscope-teal); }
+.bg-beaker-teal { background-color: var(--theme-beaker-teal); }
+.bg-beaker-outline { background-color: var(--theme-beaker-outline); }
+
+/* Border utilities */
+.border-cream { border-color: var(--theme-bg-cream); }
+.border-charcoal { border-color: var(--theme-text-charcoal); }
+.border-atom-red { border-color: var(--theme-atom-red); }
+.border-atom-lines { border-color: var(--theme-atom-lines); }
+.border-graduation-orange { border-color: var(--theme-graduation-orange); }
+.border-microscope-teal { border-color: var(--theme-microscope-teal); }
+.border-beaker-teal { border-color: var(--theme-beaker-teal); }
+.border-beaker-outline { border-color: var(--theme-beaker-outline); }
+
+/* Hover states */
+.hover\:text-atom-red:hover { color: var(--theme-atom-red); }
+.hover\:text-graduation-orange:hover { color: var(--theme-graduation-orange); }
+.hover\:text-microscope-teal:hover { color: var(--theme-microscope-teal); }
+.hover\:text-beaker-teal:hover { color: var(--theme-beaker-teal); }
+
+.hover\:bg-atom-red:hover { background-color: var(--theme-atom-red); }
+.hover\:bg-graduation-orange:hover { background-color: var(--theme-graduation-orange); }
+.hover\:bg-microscope-teal:hover { background-color: var(--theme-microscope-teal); }
+.hover\:bg-beaker-teal:hover { background-color: var(--theme-beaker-teal); }
+
+/* Force light theme only */
+.dark {
+  --background: var(--theme-bg-cream);
+  --foreground: var(--theme-text-charcoal);
+  
+  .slidev-code.shiki {
+    background: #FAFAF8 !important; /* Same as light theme */
   }
 }

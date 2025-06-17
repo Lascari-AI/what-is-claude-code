@@ -3,7 +3,11 @@ src: ./slides/00-about-me.md
 ---
 
 ---
-src: ./slides/01-title.md
+src: ./slides/00-title.md
+---
+
+---
+src: ./slides/01-about-me.md
 ---
 
 ---
