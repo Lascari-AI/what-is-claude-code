@@ -1,17 +1,16 @@
 ---
-layout: center
-class: text-center
+theme: ../
+layout: title
 ---
 
-# Claude Code
+::title::
+Claude Code
 
-## What it is and why you should care.
+::subtitle::
+What It Is and Why You Should Care
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-4 py-2 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
-    Press Space to begin <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+::qr::
+<div class="text-sm text-gray-500">QR Code</div>
 
 
 
