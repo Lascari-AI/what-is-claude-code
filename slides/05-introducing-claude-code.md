@@ -75,7 +75,6 @@ layout: default
         <p class="text-fog-grey">Execute shell commands (timeout: 2min)</p>
         <p class="text-xs text-iron-ochre">Security: Sandboxed, no sudo</p>
       </div>
-      
       <!-- File Operations -->
       <div class="border-l-2 border-slate-steel pl-2">
         <code class="text-slate-steel font-mono">Read/Write</code>
@@ -85,7 +84,6 @@ layout: default
         <code class="text-slate-steel font-mono">Edit/MultiEdit</code>
         <p class="text-fog-grey">Atomic string replacements</p>
       </div>
-      
       <!-- Search Tools -->
       <div class="border-l-2 border-slate-steel pl-2">
         <code class="text-slate-steel font-mono">Grep/Glob</code>
@@ -95,7 +93,6 @@ layout: default
         <code class="text-slate-steel font-mono">LS</code>
         <p class="text-fog-grey">Directory traversal with filters</p>
       </div>
-      
       <!-- Specialized Tools -->
       <div class="border-l-2 border-slate-steel pl-2">
         <code class="text-slate-steel font-mono">NotebookRead/Edit</code>
@@ -105,7 +102,6 @@ layout: default
         <code class="text-slate-steel font-mono">TodoRead/Write</code>
         <p class="text-fog-grey">Task tracking & planning</p>
       </div>
-      
       <!-- Web Tools -->
       <div class="border-l-2 border-signal-gold pl-2">
         <code class="text-signal-gold font-mono">WebFetch/Search</code>
@@ -117,7 +113,6 @@ layout: default
         <p class="text-fog-grey">Third-party tool integration</p>
       </div>
     </div>
-    
     <v-click>
     <div class="mt-4 p-2 bg-charcoal-tint rounded text-xs">
       <p class="text-iron-ochre font-semibold">Performance Note:</p>

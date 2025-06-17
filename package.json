@@ -4,13 +4,26 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
-    "dev": "slidev --open",
+    "build:slides": "node scripts/build.ts",
+    "dev": "slidev ./index.md --open",
     "export": "slidev export"
   },
   "dependencies": {
     "@slidev/cli": "^51.8.1",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "^0.25.0",
+    "globby": "^14.1.0",
     "vue": "^3.5.16"
+  },
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "shiki",
+    "defaults": {
+      "fonts": {
+        "sans": "Nunito Sans",
+        "mono": "Fira Code"
+      },
+      "highlighter": "shiki"
+    }
   }
 }
