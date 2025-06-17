@@ -21,7 +21,7 @@ layout: default
   <div>
     <h3 class="text-2xl font-bold text-green-400">Claude Code's Superpower is Programmability</h3>
     <p class="text-lg text-gray-400">It allows you to build automated, reusable engineering workflows (ADWs)</p>
-  </div>
+  </div>h
 </div>
 
 <div class="flex items-start gap-4">
