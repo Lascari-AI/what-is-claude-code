@@ -21,7 +21,7 @@
     "highlighter": "shiki",
     "defaults": {
       "fonts": {
-        "sans": "Nunito Sans",
+        "sans": "Styrene",
         "mono": "Fira Code"
       },
       "highlighter": "shiki"
