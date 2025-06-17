@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Comparison: Claude Code vs. Cursor {.text-4xl.font-bold.mb-8}
+# Comparison: Claude Code vs. Cursor
 
 <div class="overflow-x-auto">
 <table class="w-full text-lg">

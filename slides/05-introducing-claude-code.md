@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Claude Code: Technical Architecture {.text-4xl.font-bold.mb-4}
+# Claude Code: Technical Architecture
 
 <div class="text-lg text-fog-grey mb-6">How terminal-native AI agents actually work under the hood</div>
 

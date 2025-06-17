@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Conclusion & Key Takeaways {.text-5xl.font-bold.mb-12}
+# Conclusion & Key Takeaways
 
 
 

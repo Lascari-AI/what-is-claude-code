@@ -2,7 +2,7 @@
 layout: center
 ---
 
-# Why Programmability is a Superpower {.text-5xl.font-bold.mb-8}
+# Why Programmability is a Superpower
 
 <v-clicks>
 

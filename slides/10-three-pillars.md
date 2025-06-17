@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Why is Claude Code Better? {.text-5xl.font-bold.mb-4}
+# Why is Claude Code Better?
 
 
 

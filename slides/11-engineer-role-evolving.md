@@ -2,7 +2,7 @@
 layout: center
 ---
 
-# The Engineer's Role is Evolving {.text-5xl.font-bold.mb-12}
+# The Engineer's Role is Evolving
 
 <div class="grid grid-cols-2 gap-12">
 <v-clicks>

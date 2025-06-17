@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Example: AI Developer Workflows (ADWs) {.text-4xl.font-bold.mb-8}
+# Example: AI Developer Workflows (ADWs)
 
 
 

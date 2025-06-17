@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Understanding Agentic Coding: Multi-Step Autonomous Execution {.text-4xl.font-bold.mb-8}
+# Understanding Agentic Coding: Multi-Step Autonomous Execution
 
 <div class="grid grid-cols-2 gap-6">
 
