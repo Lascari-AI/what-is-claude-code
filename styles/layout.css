@@ -1,39 +1,43 @@
 /* Scientific Theme Color Palette */
 
 :root {
-  /* Primary Colors */
-  --theme-bg-cream: #F0EEE6;
-  --theme-text-charcoal: #141413;
+  /* Core Colors */
+  --canvas-ivory: #F0EEE6;
+  --anchor-ink: #141413;
+  --element-slate: #656B6B;
   
   /* Accent Colors */
-  --theme-atom-red: #D4483D;
-  --theme-atom-lines: #4D4D4D;
-  --theme-graduation-orange: #E87529;
-  --theme-microscope-teal: #3B8B8F;
-  --theme-microscope-arm: #2C3E3B;
-  --theme-beaker-teal: #6CB0B2;
-  --theme-beaker-outline: #8AB8B8;
+  --pulse-red: #D1533B;
+  --forge-orange: #EE8028;
+  --dark-orange: #CE5918;
+  --aqua-glass: #4A8F9B;
+  --deep-teal: #4A9195;
+  --teal-frame: #ADC9C5;
+  
+  /* Support Colors (reuse core colors) */
+  --diagram-shadow: var(--anchor-ink);
+  --focus-gray: var(--element-slate);
   
   /* Base color mappings */
-  --background: var(--theme-bg-cream);
-  --foreground: var(--theme-text-charcoal);
-  --primary: var(--theme-microscope-teal);
-  --secondary: var(--theme-graduation-orange);
-  --accent: var(--theme-atom-red);
-  --muted: var(--theme-atom-lines);
-  --highlight: var(--theme-beaker-teal);
-  --subtle: var(--theme-beaker-outline);
+  --background: var(--canvas-ivory);
+  --foreground: var(--anchor-ink);
+  --primary: var(--deep-teal);
+  --secondary: var(--forge-orange);
+  --accent: var(--pulse-red);
+  --muted: var(--focus-gray);
+  --highlight: var(--aqua-glass);
+  --subtle: var(--teal-frame);
   
   /* Semantic mappings for existing variables */
-  --cyan: var(--theme-beaker-teal);
-  --green: var(--theme-microscope-teal);
-  --orange: var(--theme-graduation-orange);
-  --pink: var(--theme-beaker-outline);
-  --purple: var(--theme-microscope-teal);
-  --red: var(--theme-atom-red);
-  --yellow: var(--theme-graduation-orange);
-  --comment: var(--theme-atom-lines);
-  --current-line: #E8E2D9; /* Slightly darker cream */
+  --cyan: var(--aqua-glass);
+  --green: var(--deep-teal);
+  --orange: var(--forge-orange);
+  --pink: var(--teal-frame);
+  --purple: var(--deep-teal);
+  --red: var(--pulse-red);
+  --yellow: var(--dark-orange);
+  --comment: var(--focus-gray);
+  --current-line: #E8E2D9; /* Slightly darker ivory */
 }
 
 /* ℹ️ #app increases the specificity of .dark selector from upstream layout styles  */
@@ -190,49 +194,58 @@
   }
 }
 /* Utility Classes for Theme Colors */
-.text-cream { color: var(--theme-bg-cream); }
-.text-charcoal { color: var(--theme-text-charcoal); }
-.text-atom-red { color: var(--theme-atom-red); }
-.text-atom-lines { color: var(--theme-atom-lines); }
-.text-graduation-orange { color: var(--theme-graduation-orange); }
-.text-microscope-teal { color: var(--theme-microscope-teal); }
-.text-beaker-teal { color: var(--theme-beaker-teal); }
-.text-beaker-outline { color: var(--theme-beaker-outline); }
+/* Core Colors */
+.text-canvas-ivory { color: var(--canvas-ivory); }
+.text-anchor-ink { color: var(--anchor-ink); }
+.text-element-slate { color: var(--element-slate); }
 
-.bg-cream { background-color: var(--theme-bg-cream); }
-.bg-charcoal { background-color: var(--theme-text-charcoal); }
-.bg-atom-red { background-color: var(--theme-atom-red); }
-.bg-atom-lines { background-color: var(--theme-atom-lines); }
-.bg-graduation-orange { background-color: var(--theme-graduation-orange); }
-.bg-microscope-teal { background-color: var(--theme-microscope-teal); }
-.bg-beaker-teal { background-color: var(--theme-beaker-teal); }
-.bg-beaker-outline { background-color: var(--theme-beaker-outline); }
+/* Accent Colors */
+.text-pulse-red { color: var(--pulse-red); }
+.text-forge-orange { color: var(--forge-orange); }
+.text-dark-orange { color: var(--dark-orange); }
+.text-aqua-glass { color: var(--aqua-glass); }
+.text-deep-teal { color: var(--deep-teal); }
+.text-teal-frame { color: var(--teal-frame); }
+
+/* Background utilities */
+.bg-canvas-ivory { background-color: var(--canvas-ivory); }
+.bg-anchor-ink { background-color: var(--anchor-ink); }
+.bg-element-slate { background-color: var(--element-slate); }
+.bg-pulse-red { background-color: var(--pulse-red); }
+.bg-forge-orange { background-color: var(--forge-orange); }
+.bg-dark-orange { background-color: var(--dark-orange); }
+.bg-aqua-glass { background-color: var(--aqua-glass); }
+.bg-deep-teal { background-color: var(--deep-teal); }
+.bg-teal-frame { background-color: var(--teal-frame); }
 
 /* Border utilities */
-.border-cream { border-color: var(--theme-bg-cream); }
-.border-charcoal { border-color: var(--theme-text-charcoal); }
-.border-atom-red { border-color: var(--theme-atom-red); }
-.border-atom-lines { border-color: var(--theme-atom-lines); }
-.border-graduation-orange { border-color: var(--theme-graduation-orange); }
-.border-microscope-teal { border-color: var(--theme-microscope-teal); }
-.border-beaker-teal { border-color: var(--theme-beaker-teal); }
-.border-beaker-outline { border-color: var(--theme-beaker-outline); }
+.border-canvas-ivory { border-color: var(--canvas-ivory); }
+.border-anchor-ink { border-color: var(--anchor-ink); }
+.border-element-slate { border-color: var(--element-slate); }
+.border-pulse-red { border-color: var(--pulse-red); }
+.border-forge-orange { border-color: var(--forge-orange); }
+.border-dark-orange { border-color: var(--dark-orange); }
+.border-aqua-glass { border-color: var(--aqua-glass); }
+.border-deep-teal { border-color: var(--deep-teal); }
+.border-teal-frame { border-color: var(--teal-frame); }
 
 /* Hover states */
-.hover\:text-atom-red:hover { color: var(--theme-atom-red); }
-.hover\:text-graduation-orange:hover { color: var(--theme-graduation-orange); }
-.hover\:text-microscope-teal:hover { color: var(--theme-microscope-teal); }
-.hover\:text-beaker-teal:hover { color: var(--theme-beaker-teal); }
+.hover\:text-pulse-red:hover { color: var(--pulse-red); }
+.hover\:text-forge-orange:hover { color: var(--forge-orange); }
+.hover\:text-dark-orange:hover { color: var(--dark-orange); }
+.hover\:text-aqua-glass:hover { color: var(--aqua-glass); }
+.hover\:text-deep-teal:hover { color: var(--deep-teal); }
 
-.hover\:bg-atom-red:hover { background-color: var(--theme-atom-red); }
-.hover\:bg-graduation-orange:hover { background-color: var(--theme-graduation-orange); }
-.hover\:bg-microscope-teal:hover { background-color: var(--theme-microscope-teal); }
-.hover\:bg-beaker-teal:hover { background-color: var(--theme-beaker-teal); }
+.hover\:bg-pulse-red:hover { background-color: var(--pulse-red); }
+.hover\:bg-forge-orange:hover { background-color: var(--forge-orange); }
+.hover\:bg-dark-orange:hover { background-color: var(--dark-orange); }
+.hover\:bg-aqua-glass:hover { background-color: var(--aqua-glass); }
+.hover\:bg-deep-teal:hover { background-color: var(--deep-teal); }
 
 /* Force light theme only */
 .dark {
-  --background: var(--theme-bg-cream);
-  --foreground: var(--theme-text-charcoal);
+  --background: var(--canvas-ivory);
+  --foreground: var(--anchor-ink);
   
   .slidev-code.shiki {
     background: #FAFAF8 !important; /* Same as light theme */
