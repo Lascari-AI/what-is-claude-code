@@ -1,2 +1,2 @@
 # RUN
-parallel read /ai_docs/**/*.md
+parallel read /ai_docs/profiles/*.json

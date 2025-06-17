@@ -3,20 +3,23 @@ theme: ../
 layout: speaker
 ---
 
-## Hi, I'm Ford Lascari
+# About Me
 
 <div class="text-xl text-gray-600 mb-2">
 Applied AI Engineer & Consultant
 </div>
 
 ### What I've Done
-- 3 years full-time in generative AI
-- Built **30+ MVPs** — seen every failure mode possible
-- Learned what breaks at 3am (and how to fix it)
+- 3 years Full-time in Gen AI
+- Built **30+ Gen AI Projects**
 
-#### Why I'm here
-- I know the difference between demos and products
-- **Show how to build AI systems that provide real value**
+### Why I'm here
+- Show how to Build AI Systems that Provide **Real Value**
+- Show how to Turn Years of Hard-Won Knowledge into **Unfair Advantage**, not Obsolete Skills
+
+
+::speaker-name::
+Ford Lascari
 
 ::image::
 <img src="/avatar.jpeg" class="w-full h-full object-cover" alt="Ford Lascari" />
