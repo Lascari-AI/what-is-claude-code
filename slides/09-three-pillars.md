@@ -1,4 +1,5 @@
 ---
+theme: ../
 layout: default
 ---
 
@@ -9,66 +10,66 @@ layout: default
 <v-clicks>
 
 <!-- Pillar 1: Full Access -->
-<div class="bg-ash-graphite rounded-lg p-6 border-t-4 border-signal-gold">
+<div class="bg-amber-100 rounded-lg p-6 border-t-4 border-amber-500 shadow-sm">
   <div class="text-center mb-4">
     <div class="text-4xl mb-2">🛠️</div>
-    <h3 class="text-xl font-bold text-signal-gold">Full Toolbelt Access</h3>
+    <h3 class="text-xl font-bold text-amber-700">Full Toolbelt Access</h3>
   </div>
   
   <div class="space-y-3">
-    <div class="bg-obsidian-black p-3 rounded text-xs font-mono">
-      <p class="text-fog-grey"># Not just code generation</p>
-      <p class="text-bone-white">$ git checkout -b feature</p>
-      <p class="text-bone-white">$ npm test</p>
-      <p class="text-bone-white">$ psql -c "SELECT..."</p>
-      <p class="text-bone-white">$ docker compose up</p>
+    <div class="bg-white p-3 rounded text-xs font-mono shadow-sm">
+      <p class="text-gray-600"># Not just code generation</p>
+      <p class="text-gray-800">$ git checkout -b feature</p>
+      <p class="text-gray-800">$ npm test</p>
+      <p class="text-gray-800">$ psql -c "SELECT..."</p>
+      <p class="text-gray-800">$ docker compose up</p>
     </div>
     
-    <p class="text-sm text-fog-grey">
+    <p class="text-sm text-gray-700">
       <span class="font-semibold">Why it matters:</span> Real engineering involves more than editing files. Testing, debugging, deployment - all part of the workflow.
     </p>
   </div>
 </div>
 
 <!-- Pillar 2: Smart Orchestration -->
-<div class="bg-ash-graphite rounded-lg p-6 border-t-4 border-deep-indigo">
+<div class="bg-sky-100 rounded-lg p-6 border-t-4 border-sky-500 shadow-sm">
   <div class="text-center mb-4">
     <div class="text-4xl mb-2">🎯</div>
-    <h3 class="text-xl font-bold text-deep-indigo">Smart Orchestration</h3>
+    <h3 class="text-xl font-bold text-sky-700">Smart Orchestration</h3>
   </div>
   
   <div class="space-y-3">
-    <div class="bg-obsidian-black p-3 rounded text-xs">
-      <p class="text-fog-grey font-mono"># One command spawns many</p>
-      <p class="text-bone-white">Main agent → Planning</p>
-      <p class="text-signal-gold ml-3">↓</p>
-      <p class="text-bone-white">Sub-agent → Code generation</p>
-      <p class="text-bone-white">Sub-agent → Test writing</p>
-      <p class="text-bone-white">Sub-agent → Documentation</p>
+    <div class="bg-white p-3 rounded text-xs shadow-sm">
+      <p class="text-gray-600 font-mono"># One command spawns many</p>
+      <p class="text-gray-800">Main agent → Planning</p>
+      <p class="text-emerald-600 ml-3">↓</p>
+      <p class="text-gray-800">Sub-agent → Code generation</p>
+      <p class="text-gray-800">Sub-agent → Test writing</p>
+      <p class="text-gray-800">Sub-agent → Documentation</p>
     </div>
     
-    <p class="text-sm text-fog-grey">
+    <p class="text-sm text-gray-700">
       <span class="font-semibold">Why it matters:</span> Complex tasks need decomposition. Smart delegation means faster, more focused execution.
     </p>
   </div>
 </div>
 
 <!-- Pillar 3: Programmability -->
-<div class="bg-ash-graphite rounded-lg p-6 border-t-4 border-iron-ochre">
+<div class="bg-emerald-100 rounded-lg p-6 border-t-4 border-emerald-500 shadow-sm">
   <div class="text-center mb-4">
     <div class="text-4xl mb-2">🔄</div>
-    <h3 class="text-xl font-bold text-iron-ochre">Programmable Workflows</h3>
+    <h3 class="text-xl font-bold text-emerald-700">Programmable Workflows</h3>
   </div>
   
   <div class="space-y-3">
-    <div class="bg-obsidian-black p-3 rounded text-xs font-mono">
-      <p class="text-fog-grey"># Your workflows, automated</p>
-      <p class="text-bone-white">$ claude /my_review_process</p>
-      <p class="text-bone-white">$ claude -p "$STANDARDS"</p>
-      <p class="text-bone-white">$ ./deploy.sh | claude</p>
+    <div class="bg-white p-3 rounded text-xs font-mono shadow-sm">
+      <p class="text-gray-600"># Your workflows, automated</p>
+      <p class="text-gray-800">$ claude /my_review_process</p>
+      <p class="text-gray-800">$ claude -p "$STANDARDS"</p>
+      <p class="text-gray-800">$ ./deploy.sh | claude</p>
     </div>
     
-    <p class="text-sm text-fog-grey">
+    <p class="text-sm text-gray-700">
       <span class="font-semibold">Why it matters:</span> Your processes are unique. Tools should adapt to you, not vice versa.
     </p>
   </div>
@@ -79,15 +80,15 @@ layout: default
 </div>
 
 <v-click>
-<div class="mt-8 bg-charcoal-tint rounded-lg p-6">
-  <h4 class="text-lg font-bold text-bone-white text-center mb-4">When Combined:</h4>
+<div class="mt-8 bg-purple-50 rounded-lg p-6 shadow">
+  <h4 class="text-lg font-bold text-gray-900 text-center mb-4">When Combined:</h4>
   <div class="text-center space-y-2">
-    <p class="text-md text-fog-grey">
-      <span class="text-signal-gold">Full Access</span> + 
-      <span class="text-deep-indigo">Smart Orchestration</span> + 
-      <span class="text-iron-ochre">Programmability</span>
+    <p class="text-md text-gray-700">
+      <span class="text-amber-600 font-semibold">Full Access</span> + 
+      <span class="text-sky-600 font-semibold">Smart Orchestration</span> + 
+      <span class="text-emerald-600 font-semibold">Programmability</span>
     </p>
-    <p class="text-lg text-bone-white font-semibold">= AI that amplifies your expertise instead of replacing it</p>
+    <p class="text-lg text-gray-900 font-semibold">= AI that amplifies your expertise instead of replacing it</p>
   </div>
 </div>
 </v-click>
@@ -104,18 +105,3 @@ Programmability means it becomes part of YOUR workflow, not the other way around
 This isn't about making engineers obsolete. It's about making them unstoppable.
 -->
 
-<style>
-  .text-crimson-signal { color: #C1121F; }
-  .text-signal-gold { color: #C6A300; }
-  .text-slate-steel { color: #4C5A61; }
-  .text-fog-grey { color: #B0B3B8; }
-  .text-bone-white { color: #EAE7DC; }
-  .text-deep-indigo { color: #3F3CBB; }
-  .text-iron-ochre { color: #A35E35; }
-  .bg-ash-graphite { background-color: #2B2B2B; }
-  .bg-charcoal-tint { background-color: #1A1A1A; }
-  .bg-obsidian-black { background-color: #0C0C0C; }
-  .border-signal-gold { border-color: #C6A300; }
-  .border-deep-indigo { border-color: #3F3CBB; }
-  .border-iron-ochre { border-color: #A35E35; }
-</style>

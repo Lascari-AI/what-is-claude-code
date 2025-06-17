@@ -1,4 +1,5 @@
 ---
+theme: ../
 layout: center
 ---
 
@@ -7,66 +8,66 @@ layout: center
 <v-clicks>
 
 <div class="text-center mb-12">
-  <p class="text-3xl text-bone-white font-bold mb-4">Two Paths Forward</p>
+  <p class="text-3xl text-gray-900 font-bold mb-4">Two Paths Forward</p>
 </div>
 
 <div class="grid grid-cols-2 gap-8 mb-10">
   <!-- Path 1 -->
-  <div class="bg-ash-graphite rounded-lg p-8 border-t-4 border-crimson-signal text-center">
+  <div class="bg-rose-100 rounded-lg p-8 border-t-4 border-rose-500 text-center shadow">
     <div class="text-5xl mb-4">🛡️</div>
-    <h3 class="text-2xl font-bold text-crimson-signal mb-4">Resist</h3>
-    <div class="space-y-2 text-md text-fog-grey">
+    <h3 class="text-2xl font-bold text-rose-700 mb-4">Resist</h3>
+    <div class="space-y-2 text-md text-gray-700">
       <p>Defend traditional methods</p>
       <p>Dismiss AI as hype</p>
       <p>Hope it goes away</p>
     </div>
-    <div class="mt-6 p-3 bg-obsidian-black rounded">
-      <p class="text-sm text-iron-ochre">Risk: Becoming the COBOL programmer of 2030</p>
+    <div class="mt-6 p-3 bg-white rounded shadow-sm">
+      <p class="text-sm text-amber-700">Risk: Becoming the COBOL programmer of 2030</p>
     </div>
   </div>
   
   <!-- Path 2 -->
-  <div class="bg-ash-graphite rounded-lg p-8 border-t-4 border-signal-gold text-center">
+  <div class="bg-emerald-100 rounded-lg p-8 border-t-4 border-emerald-500 text-center shadow">
     <div class="text-5xl mb-4">🚀</div>
-    <h3 class="text-2xl font-bold text-signal-gold mb-4">Evolve</h3>
-    <div class="space-y-2 text-md text-fog-grey">
+    <h3 class="text-2xl font-bold text-emerald-700 mb-4">Evolve</h3>
+    <div class="space-y-2 text-md text-gray-700">
       <p>Master AI tools thoughtfully</p>
       <p>Amplify your expertise</p>
       <p>Shape the future</p>
     </div>
-    <div class="mt-6 p-3 bg-obsidian-black rounded">
-      <p class="text-sm text-signal-gold">Reward: Becoming indispensable in the AI age</p>
+    <div class="mt-6 p-3 bg-white rounded shadow-sm">
+      <p class="text-sm text-emerald-700 font-semibold">Reward: Becoming indispensable in the AI age</p>
     </div>
   </div>
 </div>
 
-<div class="bg-charcoal-tint rounded-lg p-8">
-  <h3 class="text-2xl font-bold text-bone-white text-center mb-6">The Truth About Your Expertise</h3>
+<div class="bg-purple-50 rounded-lg p-8 shadow">
+  <h3 class="text-2xl font-bold text-gray-900 text-center mb-6">The Truth About Your Expertise</h3>
   
   <div class="space-y-4 text-lg text-center">
-    <p class="text-fog-grey">
-      Your deep understanding of systems <span class="text-signal-gold font-semibold">becomes MORE valuable</span>
+    <p class="text-gray-700">
+      Your deep understanding of systems <span class="text-emerald-600 font-semibold">becomes MORE valuable</span>
     </p>
-    <p class="text-fog-grey">
-      Your ability to architect solutions <span class="text-deep-indigo font-semibold">becomes MORE critical</span>
+    <p class="text-gray-700">
+      Your ability to architect solutions <span class="text-sky-600 font-semibold">becomes MORE critical</span>
     </p>
-    <p class="text-fog-grey">
-      Your judgment about trade-offs <span class="text-iron-ochre font-semibold">becomes MORE essential</span>
+    <p class="text-gray-700">
+      Your judgment about trade-offs <span class="text-amber-600 font-semibold">becomes MORE essential</span>
     </p>
   </div>
   
-  <p class="text-xl text-bone-white font-bold text-center mt-6">
+  <p class="text-xl text-gray-900 font-bold text-center mt-6">
     AI doesn't replace expertise. It amplifies it.
   </p>
 </div>
 
 <div class="mt-10 text-center">
-  <p class="text-2xl text-bone-white font-bold mb-4">The Engineers Who Thrive Will Be Those Who</p>
-  <p class="text-3xl text-signal-gold font-bold">See AI as a Tool, Not a Threat</p>
+  <p class="text-2xl text-gray-900 font-bold mb-4">The Engineers Who Thrive Will Be Those Who</p>
+  <p class="text-3xl text-emerald-600 font-bold">See AI as a Tool, Not a Threat</p>
   
-  <div class="mt-8 p-6 bg-obsidian-black rounded-lg">
-    <p class="text-xl text-fog-grey mb-2">The best time to start was yesterday.</p>
-    <p class="text-2xl text-bone-white font-bold">The second best time is now.</p>
+  <div class="mt-8 p-6 bg-amber-50 rounded-lg shadow">
+    <p class="text-xl text-gray-600 mb-2">The best time to start was yesterday.</p>
+    <p class="text-2xl text-gray-900 font-bold">The second best time is now.</p>
   </div>
 </div>
 
@@ -88,17 +89,3 @@ That engineer could be you. If you choose to evolve.
 The choice is yours. Choose wisely.
 -->
 
-<style>
-  .text-crimson-signal { color: #C1121F; }
-  .text-signal-gold { color: #C6A300; }
-  .text-slate-steel { color: #4C5A61; }
-  .text-fog-grey { color: #B0B3B8; }
-  .text-bone-white { color: #EAE7DC; }
-  .text-deep-indigo { color: #3F3CBB; }
-  .text-iron-ochre { color: #A35E35; }
-  .bg-ash-graphite { background-color: #2B2B2B; }
-  .bg-charcoal-tint { background-color: #1A1A1A; }
-  .bg-obsidian-black { background-color: #0C0C0C; }
-  .border-crimson-signal { border-color: #C1121F; }
-  .border-signal-gold { border-color: #C6A300; }
-</style>

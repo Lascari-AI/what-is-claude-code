@@ -1,4 +1,5 @@
 ---
+theme: ../
 layout: center
 ---
 
@@ -7,40 +8,40 @@ layout: center
 <v-clicks>
 
 <div class="text-center mb-12">
-  <p class="text-3xl text-bone-white font-bold mb-4">What if you didn't have to choose?</p>
-  <p class="text-xl text-fog-grey">Autonomous execution WITH visibility and control</p>
+  <p class="text-3xl text-gray-900 font-bold mb-4">What if you didn't have to choose?</p>
+  <p class="text-xl text-gray-700">Autonomous execution WITH visibility and control</p>
 </div>
 
 <div class="grid grid-cols-3 gap-6 mb-10">
   <div class="text-center">
     <div class="text-4xl mb-3">🤖</div>
-    <p class="text-lg font-semibold text-signal-gold">Agentic</p>
-    <p class="text-sm text-fog-grey">Handles complex workflows autonomously</p>
+    <p class="text-lg font-semibold text-emerald-600">Agentic</p>
+    <p class="text-sm text-gray-600">Handles complex workflows autonomously</p>
   </div>
   <div class="text-center text-3xl self-center">
-    <span class="text-bone-white">+</span>
+    <span class="text-gray-800">+</span>
   </div>
   <div class="text-center">
     <div class="text-4xl mb-3">🎛️</div>
-    <p class="text-lg font-semibold text-deep-indigo">Controllable</p>
-    <p class="text-sm text-fog-grey">You see and direct every step</p>
+    <p class="text-lg font-semibold text-sky-600">Controllable</p>
+    <p class="text-sm text-gray-600">You see and direct every step</p>
   </div>
 </div>
 
-<div class="bg-ash-graphite rounded-lg p-6 border-2 border-signal-gold">
-  <h3 class="text-xl font-bold text-bone-white mb-4 text-center">The Sweet Spot</h3>
+<div class="bg-emerald-100 rounded-lg p-6 border-2 border-emerald-500 shadow-lg">
+  <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">The Sweet Spot</h3>
   <div class="grid grid-cols-2 gap-6">
     <div>
-      <p class="text-sm font-semibold text-signal-gold mb-2">From Done-For-You:</p>
-      <ul class="text-sm text-fog-grey space-y-1">
+      <p class="text-sm font-semibold text-emerald-700 mb-2">From Done-For-You:</p>
+      <ul class="text-sm text-gray-700 space-y-1">
         <li>✓ Autonomous multi-step execution</li>
         <li>✓ Handles complexity independently</li>
         <li>✓ Dramatic time savings</li>
       </ul>
     </div>
     <div>
-      <p class="text-sm font-semibold text-deep-indigo mb-2">From Done-With-You:</p>
-      <ul class="text-sm text-fog-grey space-y-1">
+      <p class="text-sm font-semibold text-sky-700 mb-2">From Done-With-You:</p>
+      <ul class="text-sm text-gray-700 space-y-1">
         <li>✓ Full visibility into process</li>
         <li>✓ Ability to intervene and adjust</li>
         <li>✓ Maintains engineering standards</li>
@@ -50,8 +51,8 @@ layout: center
 </div>
 
 <div class="mt-8 text-center">
-  <p class="text-lg text-iron-ochre font-semibold">This isn't theoretical.</p>
-  <p class="text-md text-fog-grey">Let me show you what this looks like in practice...</p>
+  <p class="text-lg text-amber-700 font-semibold">This isn't theoretical.</p>
+  <p class="text-md text-gray-600">Let me show you what this looks like in practice...</p>
 </div>
 
 </v-clicks>
@@ -66,16 +67,3 @@ It's like having a brilliant junior engineer who thinks out loud, shows their wo
 This changes everything about how we work with AI.
 -->
 
-<style>
-  .text-crimson-signal { color: #C1121F; }
-  .text-signal-gold { color: #C6A300; }
-  .text-slate-steel { color: #4C5A61; }
-  .text-fog-grey { color: #B0B3B8; }
-  .text-bone-white { color: #EAE7DC; }
-  .text-deep-indigo { color: #3F3CBB; }
-  .text-iron-ochre { color: #A35E35; }
-  .bg-ash-graphite { background-color: #2B2B2B; }
-  .bg-charcoal-tint { background-color: #1A1A1A; }
-  .bg-obsidian-black { background-color: #0C0C0C; }
-  .border-signal-gold { border-color: #C6A300; }
-</style>

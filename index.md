@@ -19,10 +19,6 @@ src: ./slides/04-done-for-you-vs-done-with-you.md
 ---
 
 ---
-src: ./slides/05-problems-at-extremes.md
----
-
----
 src: ./slides/06-missing-middle.md
 ---
 
