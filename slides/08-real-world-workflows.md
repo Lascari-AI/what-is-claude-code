@@ -3,11 +3,7 @@ theme: ../
 layout: default
 ---
 
-# Real-World Workflow: Database Migration
-
-<div class="mb-4">
-  <p class="text-lg text-gray-600">Let's see how this actually works in production</p>
-</div>
+# Case Study: Database Migration (same 4-step flow, bigger payload)
 
 <div class="grid grid-cols-12 gap-4">
 

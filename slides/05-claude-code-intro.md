@@ -3,7 +3,7 @@ theme: ../
 layout: default
 ---
 
-# Introducing Claude Code
+# Claude Code: The Agentic Primitive
 
 <div class="grid grid-cols-3 gap-8 mt-8">
  <div class="col-span-1">
@@ -22,11 +22,11 @@ layout: default
         Terminal-Native
       </h4>
     </div>
-    <!-- Programmable Card -->
+    <!-- Primitive Card -->
     <div class="text-center bg-purple-50 border border-purple-200 rounded-lg p-4">
       <h4 class="font-semibold text-purple-600 mb-1 text-sm">
         <span class="align-middle mr-2 text-base">⚡</span>
-        Programmable
+        Primitive Building Block
       </h4>
     </div>
     </v-clicks>
@@ -111,10 +111,7 @@ layout: default
 
 
 <!--
-This is where Claude Code found the sweet spot. It's not trying to hide complexity or pretend AI is magic. It's giving you a powerful tool that respects your expertise.
-
-The terminal-native approach isn't just about being "hardcore" - it's about integration. Your existing scripts, your CI/CD pipelines, your workflows - Claude Code slots right in.
-
-And the control mechanisms aren't afterthoughts. They're core to the design. You can be as hands-on or hands-off as the situation demands.
+Claude Code isn't a SaaS feature – it's a **primitive**.  
+You compose it like `grep | awk | sed`, but the pipes are intelligent agents you control.
 -->
 
