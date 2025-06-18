@@ -23,10 +23,6 @@ src: ./slides/06-missing-middle.md
 ---
 
 ---
-src: ./slides/07-introducing-agentic-coding.md
----
-
----
 src: ./slides/08-claude-code-architecture.md
 ---
 
@@ -40,10 +36,6 @@ src: ./slides/10-programmability-superpower.md
 
 ---
 src: ./slides/11-real-world-workflows.md
----
-
----
-src: ./slides/12-comparing-tools.md
 ---
 
 ---

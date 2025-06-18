@@ -7,11 +7,11 @@ layout: default
 
 <div class="text-lg text-gray-600 mb-6">These principles apply regardless of which tool you use</div>
 
-<div class="space-y-4">
+<div class="grid grid-cols-5 gap-4">
 <v-clicks>
 
 <!-- Principle 1 -->
-<div class="bg-amber-100 rounded-lg p-5 border-l-4 border-amber-500 shadow-sm">
+<div class="col-span-1 bg-amber-100 rounded-lg p-5 border-l-4 border-amber-500 shadow-sm">
   <div class="flex items-start gap-4">
     <div class="text-3xl">👁️</div>
     <div class="flex-1">
@@ -29,7 +29,7 @@ layout: default
 </div>
 
 <!-- Principle 2 -->
-<div class="bg-sky-100 rounded-lg p-5 border-l-4 border-sky-500 shadow-sm">
+<div class="col-span-1 bg-sky-100 rounded-lg p-5 border-l-4 border-sky-500 shadow-sm">
   <div class="flex items-start gap-4">
     <div class="text-3xl">🎛️</div>
     <div class="flex-1">
@@ -54,7 +54,7 @@ layout: default
 </div>
 
 <!-- Principle 3 -->
-<div class="bg-purple-100 rounded-lg p-5 border-l-4 border-purple-500 shadow-sm">
+<div class="col-span-1 bg-purple-100 rounded-lg p-5 border-l-4 border-purple-500 shadow-sm">
   <div class="flex items-start gap-4">
     <div class="text-3xl">✅</div>
     <div class="flex-1">
@@ -73,7 +73,7 @@ layout: default
 </div>
 
 <!-- Principle 4 -->
-<div class="bg-rose-100 rounded-lg p-5 border-l-4 border-rose-500 shadow-sm">
+<div class="col-span-1 bg-rose-100 rounded-lg p-5 border-l-4 border-rose-500 shadow-sm">
   <div class="flex items-start gap-4">
     <div class="text-3xl">🔧</div>
     <div class="flex-1">
@@ -94,7 +94,7 @@ layout: default
 </div>
 
 <!-- Principle 5 -->
-<div class="bg-emerald-100 rounded-lg p-5 border-l-4 border-emerald-500 shadow-sm">
+<div class="col-span-1 bg-emerald-100 rounded-lg p-5 border-l-4 border-emerald-500 shadow-sm">
   <div class="flex items-start gap-4">
     <div class="text-3xl">📚</div>
     <div class="flex-1">

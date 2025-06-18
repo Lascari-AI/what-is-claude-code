@@ -5,44 +5,82 @@ layout: default
 
 # The AI Coding Tool Continuum
 
-<div class="relative my-2">
-  <!-- Continuum Line -->
-  <div class="absolute top-1/2 w-full h-2 bg-gradient-to-r from-rose-400 via-purple-400 to-sky-400 rounded-full transform -translate-y-1/2"></div>
+<div class="relative mt-20">
+  <!-- Container for labels and line -->
+  <div class="flex items-center gap-6">
+    <!-- Left Label -->
+    <span class="text-sm font-semibold text-rose-600 whitespace-nowrap">
+      Fully <br>Autonomous <br> (Agentic)
+    </span>
+    <!-- Continuum Line -->
+    <div class="relative h-3 bg-gradient-to-r from-rose-400 via-purple-400 to-sky-400 rounded-full shadow-lg flex-1">
+    <!-- Tool Markers -->
+    <!-- Devin - 5% -->
+    <div class="absolute -top-8.5 left-[5%] transform -translate-x-1/2">
+      <div class="bg-white px-2 py-1 rounded shadow-md text-xs font-medium">Devin, Codex, etc.</div>
+      <div class="w-3 h-3 bg-rose-500 rounded-full mx-auto mt-1"></div>
+    </div>
+    <!-- Bolt - 10% -->
+    <div class="absolute -bottom-8.5 left-[20%] transform -translate-x-1/2">
+      <div class="w-3 h-3 bg-rose-500 rounded-full mx-auto mb-1"></div>
+      <div class="bg-white px-2 py-1 rounded shadow-md text-xs font-medium">Bolt, Lovable, etc.</div>
+    </div>
+    <!-- Cursor Composer - 35% -->
+    <div class="absolute -top-8.5 left-[35%] transform -translate-x-1/2">
+      <div class="bg-white px-2 py-1 rounded shadow-md text-xs font-medium">Cursor, Windsurf, etc.</div>
+      <div class="w-3 h-3 bg-purple-400 rounded-full mx-auto mt-1"></div>
+    </div>
+    <!-- Claude Code - 50% -->
+    <div class="absolute -bottom-12 left-[50%] transform -translate-x-1/2">
+      <div class="w-4 h-4 bg-purple-500 rounded-full mx-auto mb-1 ring-4 ring-purple-200"></div>
+      <div class="bg-purple-100 px-3 py-1 rounded shadow-lg text-sm font-bold border-2 border-purple-500">Claude Code</div>
+    </div>
+    <!-- Aider - 85% -->
+    <div class="absolute -bottom-8.5 left-[85%] transform -translate-x-1/2">
+      <div class="w-3 h-3 bg-sky-500 rounded-full mx-auto mb-1"></div>
+      <div class="bg-white px-2 py-1 rounded shadow-md text-xs font-medium">RepoPrompt</div>
+    </div>
+    <!-- RepoPrompt - 95% -->
+    <div class="absolute -top-8.5 left-[95%] transform -translate-x-1/2">
+      <div class="bg-white px-2 py-1 rounded shadow-md text-xs font-medium">Aider</div>
+      <div class="w-3 h-3 bg-sky-400 rounded-full mx-auto mt-1"></div>
+    </div>
+    </div>
+    <!-- Right Label -->
+    <span class="text-sm font-semibold text-sky-600 whitespace-nowrap">
+      Low Level<br>Control
+    </span>
+  </div>
   
-  <!-- Endpoints -->
-  <div class="relative flex justify-between items-start">
-    <!-- Fully Autonomous End -->
-    <div class="bg-rose-100 rounded-lg p-4 border-2 border-rose-500 shadow-sm w-64">
-      <h3 class="text-xl font-bold text-gray-900 mb-2">🎭 Fully Autonomous</h3>
-      <p class="text-xs text-gray-600 mb-2">Codex, Bolt, Devin, Lovable</p>
-      <p class="text-sm text-gray-800 italic mb-3">"Describe it, we'll build it"</p>
-      <div class="space-y-1 text-xs">
-        <p>✅ <span class="text-emerald-600">Zero effort</span></p>
-        <p>✅ <span class="text-emerald-600">Instant demos</span></p>
-        <p>❌ <span class="text-rose-600">Black box</span></p>
-        <p>❌ <span class="text-rose-600">No control</span></p>
-      </div>
+  <!-- Characteristics -->
+  <div class="flex justify-between mt-8 text-xs text-gray-600">
+    <v-click>
+    <div class="text-center bg-gray-100 border-1 border-gray-300 p-2 px-4 rounded-lg">
+      <p>Describe → Get Code</p>
+      <p>Little to No Visibility</p>
+      <p>Take it or Leave it</p>
     </div>
-    <!-- Deeply Collaborative End -->
-    <div class="bg-sky-100 rounded-lg p-4 border-2 border-sky-500 shadow-sm w-64">
-      <h3 class="text-xl font-bold text-gray-900 mb-2">🤝 Deeply Collaborative</h3>
-      <p class="text-xs text-gray-600 mb-2">Aider, RepoPrompt</p>
-      <p class="text-sm text-gray-800 italic mb-3">"We assist, you control"</p>
-      <div class="space-y-1 text-xs">
-        <p>✅ <span class="text-emerald-600">Full control</span></p>
-        <p>✅ <span class="text-emerald-600">Transparent</span></p>
-        <p>❌ <span class="text-rose-600">High effort</span></p>
-        <p>❌ <span class="text-rose-600">You're the bottleneck</span></p>
-      </div>
+    </v-click>
+    <v-click>
+    <div class="text-center bg-gray-100 border-1 border-gray-300 p-2 px-4 rounded-lg">
+      <p>You Drive Everything</p>
+      <p>Full Transparency</p>
+      <p>High Cognitive Load</p>
     </div>
+    </v-click>
   </div>
 </div>
 
 <v-click>
 <div class="text-center">
-  <p class="text-lg text-gray-600 mb-2">The Problem:</p>
-  <p class="text-2xl text-gray-900 font-semibold">Both extremes miss the sweet spot</p>
-  <p class="text-md text-gray-700 mt-2">What if we could have <span class="text-emerald-600 font-semibold">autonomous execution</span> WITH <span class="text-sky-600 font-semibold">visibility and control</span>?</p>
+  <p class="text-lg text-gray-600 mb-2">The Sweet Spot:</p>
+  <p class="text-2xl font-semibold">
+    <span class="text-red-600 font-bold">Agentic</span> 
+    with
+    <span class="text-purple-600 font-bold">Visibility</span> 
+    and 
+    <span class="text-sky-600 font-bold">Control</span>
+  </p>
 </div>
 </v-click>
 

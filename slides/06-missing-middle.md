@@ -1,61 +1,59 @@
 ---
 theme: ../
-layout: center
 ---
 
 # The Missing Middle: Agentic + Controllable
 
-<v-clicks>
 
-<div class="text-center mb-12">
-  <p class="text-3xl text-gray-900 font-bold mb-4">What if you didn't have to choose?</p>
-  <p class="text-xl text-gray-700">Autonomous execution WITH visibility and control</p>
-</div>
 
-<div class="grid grid-cols-3 gap-6 mb-10">
-  <div class="text-center">
-    <div class="text-4xl mb-3">🤖</div>
-    <p class="text-lg font-semibold text-emerald-600">Agentic</p>
-    <p class="text-sm text-gray-600">Handles complex workflows autonomously</p>
+<div class="grid grid-cols-3 mb-6">
+  <div class="text-center bg-gray-100 border-1 border-gray-300 p-2 px-4 rounded-lg">
+    <p class="text-lg font-semibold text-red-600">Agentic</p>
+    <p class="text-sm text-gray-600">Handles Complex Workflows Autonomously</p>
   </div>
   <div class="text-center text-3xl self-center">
     <span class="text-gray-800">+</span>
   </div>
-  <div class="text-center">
-    <div class="text-4xl mb-3">🎛️</div>
+  <div class="text-center bg-gray-100 border-1 border-gray-300 p-2 px-4 rounded-lg">
     <p class="text-lg font-semibold text-sky-600">Controllable</p>
-    <p class="text-sm text-gray-600">You see and direct every step</p>
+    <p class="text-sm text-gray-600">You See and Direct Every Step</p>
+  </div>
+</div>
+<v-click>
+<div class="grid grid-cols-3 mb-6">
+  <div class="text-center">
+    <div class="text-4xl text-red-600">↘</div>
+  </div>
+  <div class="text-center">
+  </div>
+  <div class="text-center">
+    <div class="text-4xl text-sky-600">↙</div>
   </div>
 </div>
 
-<div class="bg-emerald-100 rounded-lg p-6 border-2 border-emerald-500 shadow-lg">
-  <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">The Sweet Spot</h3>
-  <div class="grid grid-cols-2 gap-6">
-    <div>
-      <p class="text-sm font-semibold text-emerald-700 mb-2">From Done-For-You:</p>
+<div class="bg-emerald-100 rounded-lg p-2 border-2 border-emerald-500 shadow-lg relative">
+  <div class="grid grid-cols-3 gap-6 items-center">
+    <div class="bg-gray-100 border-1 border-red-500 rounded-lg p-4 shadow-sm">
       <ul class="text-sm text-gray-700 space-y-1">
-        <li>✓ Autonomous multi-step execution</li>
-        <li>✓ Handles complexity independently</li>
-        <li>✓ Dramatic time savings</li>
+        <li>Multi-Step Execution</li>
+        <li>Handles Complexity Independently</li>
+        <li>Dramatic Time Savings</li>
       </ul>
     </div>
-    <div>
-      <p class="text-sm font-semibold text-sky-700 mb-2">From Done-With-You:</p>
+    <div class="flex flex-col items-center">
+      <h3 class="text-center text-xl font-bold text-gray-900">The <br> Sweet <br> Spot</h3>
+    </div>
+    <div class="bg-gray-100 border-1 border-sky-500 rounded-lg p-4 shadow-sm">
       <ul class="text-sm text-gray-700 space-y-1">
-        <li>✓ Full visibility into process</li>
-        <li>✓ Ability to intervene and adjust</li>
-        <li>✓ Maintains engineering standards</li>
+        <li>Full Visibility into Process</li>
+        <li>Intervene and Adjust</li>
+        <li>Maintains Engineering Standards</li>
       </ul>
     </div>
   </div>
 </div>
 
-<div class="mt-8 text-center">
-  <p class="text-lg text-amber-700 font-semibold">This isn't theoretical.</p>
-  <p class="text-md text-gray-600">Let me show you what this looks like in practice...</p>
-</div>
-
-</v-clicks>
+</v-click>
 
 <!--
 This is the breakthrough. You don't have to choose between power and control.
