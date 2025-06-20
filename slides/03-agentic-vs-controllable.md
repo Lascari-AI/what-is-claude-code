@@ -3,9 +3,15 @@ theme: ../
 layout: default
 ---
 
-# The AI Coding Tool Continuum
+<div class="text-4xl text-center mb-8">The AI Coding Tool Continuum</div>
 
-<div class="relative mt-20">
+<!-- 
+  Fixed duplicate attribute error: 
+  There were two 'class' attributes on the div. 
+  Combined all classes into a single 'class' attribute and kept the style attribute.
+  This resolves the Vue compiler error and keeps the intended styling.
+-->
+<div class="relative mt-10 p-8 py-10 rounded-lg border-1 border-gray-500" style="background-color: #E3DACC;">
   <!-- Container for labels and line -->
   <div class="flex items-center gap-6">
     <!-- Left Label -->
@@ -51,36 +57,46 @@ layout: default
       Low Level<br>Control
     </span>
   </div>
-  
+</div>
+
   <!-- Characteristics -->
-  <div class="flex justify-between mt-8 text-xs text-gray-600">
+  <div class="grid grid-cols-9 gap-4 mt-8 text-xs">
     <v-click>
-    <div class="text-center bg-gray-100 border-1 border-gray-300 p-2 px-4 rounded-lg">
+    <div class="col-span-2 text-center bg-gray-100 border-1 border-gray-500 p-2 px-4 rounded-lg">
       <p>Describe → Get Code</p>
       <p>Little to No Visibility</p>
       <p>Take it or Leave it</p>
     </div>
     </v-click>
-    <v-click>
-    <div class="text-center bg-gray-100 border-1 border-gray-300 p-2 px-4 rounded-lg">
+    <!-- Sweet spot section - maintains layout but content is hidden until later -->
+    <div class="col-span-5 items-center text-center mt-2.5">
+      <v-click at="3">
+      <div class="p-0.5 rounded-lg shadow-lg" style="background: linear-gradient(to right, #fb7185, #a78bfa, #38bdf8);">
+        <div class="bg-white rounded-md py-4 px-2">
+          <p class="text-lg mb-2 text-center">The Sweet Spot:</p>
+          <p class="text-2xl font-semibold">
+            <span class="text-red-600 font-bold">Agentic</span> 
+            with
+            <span class="text-purple-600 font-bold">Visibility</span> 
+            and 
+            <span class="text-sky-600 font-bold">Control</span>
+          </p>
+        </div>
+      </div>
+      </v-click>
+    </div>
+    <v-click at="2">
+    <div class="col-span-2 text-center bg-gray-100 border-1 border-gray-500 p-2 px-4 rounded-lg">
       <p>You Drive Everything</p>
       <p>Full Transparency</p>
       <p>High Cognitive Load</p>
     </div>
     </v-click>
   </div>
-</div>
 
-<v-click>
-<div class="text-center">
-  <p class="text-lg text-gray-600 mb-2">The Sweet Spot:</p>
-  <p class="text-2xl font-semibold">
-    <span class="text-red-600 font-bold">Agentic</span> 
-    with
-    <span class="text-purple-600 font-bold">Visibility</span> 
-    and 
-    <span class="text-sky-600 font-bold">Control</span>
-  </p>
+<v-click at="4">
+<div class="text-center mt-8">
+  <p class="text-xl font-semibold">So what tool bridges the gap?</p>
 </div>
 </v-click>
 

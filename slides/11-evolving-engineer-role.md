@@ -11,7 +11,7 @@ layout: default
   <div class="bg-rose-100 rounded-lg p-6 border-t-4 border-rose-500 shadow-sm">
     <h3 class="text-xl font-bold text-rose-700 mb-4">Traditional Engineer</h3>
     <div class="text-center mb-4">
-      <div class="text-5xl mb-2">⌨️</div>
+      <div class="text-4xl mb-2">⌨️</div>
       <p class="text-lg text-gray-900 font-semibold">The Code Writer</p>
     </div>
   </div>
@@ -20,7 +20,7 @@ layout: default
   <div class="bg-emerald-100 rounded-lg p-6 border-t-4 border-emerald-500 shadow-sm">
     <h3 class="text-xl font-bold text-emerald-700 mb-4">AI-Enhanced Engineer</h3>
     <div class="text-center mb-4">
-      <div class="text-5xl mb-2">🎯</div>
+      <div class="text-4xl mb-2">🎯</div>
       <p class="text-lg text-gray-900 font-semibold">The System Orchestrator</p>
     </div>
   </div>

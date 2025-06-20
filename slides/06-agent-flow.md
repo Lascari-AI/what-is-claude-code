@@ -3,44 +3,43 @@ theme: ../
 layout: default
 ---
 
-# The Core Flow: Prime → Sub → Plan → Run
+<div class="text-4xl text-center mb-8 text-gray-900">Prime →  Plan →  Produce</div>
 
-<div class="grid grid-cols-4 gap-4 text-center text-sm font-mono">
-
+<div class="grid grid-cols-3 gap-6 text-center">
+<v-clicks>
 <!-- PRIME -->
-<div class="bg-gray-50 p-3 rounded shadow">
-  <p class="text-xs text-gray-600 mb-1">1. prime</p>
-  <p class="text-emerald-700">$ claude prime ./**/*.ts</p>
-  <p class="text-gray-600 mt-2">Vector-digests your code base</p>
-</div>
-
-<!-- SUB -->
-<div class="bg-gray-50 p-3 rounded shadow">
-  <p class="text-xs text-gray-600 mb-1">2. sub search</p>
-  <p class="text-emerald-700">$ claude sub search ./docs</p>
-  <p class="text-gray-600 mt-2">Pulls rules / ADRs / RFCs</p>
+<div class="bg-gradient-to-b from-gray-50 to-gray-100 p-6 rounded-lg shadow-lg border-1 border-gray-400">
+  <p class="text-3xl font-bold text-gray-900 mb-4">Prime</p>
+  <div class="space-y-3 text-left text-sm">
+    <ul class="space-y-2">
+      <li>Read Core Files</li>
+    </ul>
+  </div>
 </div>
 
 <!-- PLAN -->
-<div class="bg-gray-50 p-3 rounded shadow">
-  <p class="text-xs text-gray-600 mb-1">3. plan</p>
-  <p class="text-emerald-700">$ claude plan "Add Stripe billing"</p>
-  <p class="text-gray-600 mt-2">Generates task-graph & checks</p>
+<div class="bg-gradient-to-b from-gray-50 to-gray-100 p-6 rounded-lg shadow-lg border-1 border-gray-400">
+  <p class="text-3xl font-bold text-gray-900 mb-4">Plan</p>
+  <div class="space-y-3 text-left text-sm">
+    <ul class="space-y-2">
+      <li>Take in Request</li>
+      <li>Find Files Needed for Request</li>
+      <li>Find Docs Based on Files</li>
+      <li>Make Tasks to Complete Request</li>
+    </ul>
+  </div>
 </div>
 
-<!-- RUN -->
-<div class="bg-gray-50 p-3 rounded shadow">
-  <p class="text-xs text-gray-600 mb-1">4. run</p>
-  <p class="text-emerald-700">$ claude run --agents 4</p>
-  <p class="text-gray-600 mt-2">Spawns N agents, executes graph</p>
+<!-- PRODUCE -->
+<div class="bg-gradient-to-b from-gray-50 to-gray-100 p-6 rounded-lg shadow-lg border-1 border-gray-400">
+  <p class="text-3xl font-bold text-gray-900 mb-4">Produce</p>
+  <div class="space-y-3 text-left text-sm">
+    <ul class="space-y-2">
+      <li class="ml-4">Write Code Edits</li>
+      <li class="ml-4">Run Tests</li>
+      <li class="ml-4">Update Docs</li>
+    </ul>
+  </div>
 </div>
+</v-clicks>
 </div>
-
-<v-click>
-<div class="mt-6 bg-purple-50 p-4 rounded shadow text-center">
-  <p class="text-lg text-gray-900 font-semibold">
-    Treat each verb like a UNIX util.  
-    Chain, script, or swap them as you wish.
-  </p>
-</div>
-</v-click>

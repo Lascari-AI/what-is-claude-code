@@ -3,74 +3,81 @@ theme: ../
 layout: default
 ---
 
-# Live Demo: Shipping a Feature With 4 Commands  
-_(same four you just saw in the Agent Flow)_
+<div class="text-4xl text-center mb-4 text-gray-900">Example Workflow</div>
 
-<div class="grid grid-cols-12 gap-6">
-
-<!-- LEFT COLUMN –– Commands -->
-<div class="col-span-5 space-y-4 text-sm font-mono bg-gray-50 p-4 rounded shadow">
-
-  <div>
-    <p class="text-gray-600"># 1  Prime context</p>
-    <p class="text-gray-800">$ claude prime ./**/*.ts</p>
+<div class="grid grid-cols-3 gap-6 text-center">
+<v-clicks>
+<!-- PRIME -->
+<div class="bg-gradient-to-b from-gray-50 to-gray-100 p-6 rounded-lg shadow-lg border-1 border-gray-400">
+  <p class="text-3xl font-bold text-gray-900 mb-4">Prime</p>
+  <div class="space-y-3 text-left text-sm">
+    <div class="mb-3">
+      <code class="text-xs bg-gray-200 px-2 py-1 rounded">$ claude /prime</code>
+    </div>
+    <ul class="space-y-2">
+      <li>Reads package.json, tsconfig</li>
+      <li>Run <code>tree src/</code> to see structure</li>
+      <li>Loads CLAUDE.md rules</li>
+      <li>Builds context graph</li>
+    </ul>
+    <div class="mt-3 text-xs text-green-600">
+      ✓ 12 files indexed
+    </div>
   </div>
-
-  <div>
-    <p class="text-gray-600 mt-4"># 2  Pull team rules & docs</p>
-    <p class="text-gray-800">$ claude sub search ./docs ./CONTRIBUTING.md</p>
-  </div>
-
-  <div>
-    <p class="text-gray-600 mt-4"># 3  Plan the change</p>
-    <p class="text-gray-800">$ claude plan "Add Stripe billing"</p>
-  </div>
-
-  <div>
-    <p class="text-gray-600 mt-4"># 4  Execute with agents</p>
-    <p class="text-gray-800">$ claude run --agents 4</p>
-  </div>
-
 </div>
 
-<!-- RIGHT COLUMN –– What Happens -->
-<div class="col-span-7 bg-emerald-50 p-4 rounded shadow text-xs font-mono">
-
-<v-clicks>
-
-  <div>
-    <p class="text-gray-600">[prime] digesting 67 files → vector db</p>
-    <p class="text-emerald-600">✓ context fingerprint complete</p>
+<!-- PLAN -->
+<div class="bg-gradient-to-b from-gray-50 to-gray-100 p-6 rounded-lg shadow-lg border-1 border-gray-400">
+  <p class="text-3xl font-bold text-gray-900 mb-4">Plan</p>
+  <div class="space-y-3 text-left text-sm">
+    <div class="mb-3">
+      <code class="text-xs bg-gray-200 px-2 py-1 rounded">"Add Stripe billing"</code>
+    </div>
+    <ul class="space-y-2">
+      <li>Analyze existing payment code</li>
+      <li>Find API patterns</li>
+      <li>Check test conventions</li>
+      <li>Create task breakdown</li>
+    </ul>
+    <div class="mt-3 text-xs text-green-600">
+      ✓ 4 tasks generated
+    </div>
   </div>
+</div>
 
-
-  <div>
-    <p class="text-gray-600">[sub] reading 5 rule docs</p>
-    <p class="text-emerald-600">✓ extracted 14 compliance checks</p>
+<!-- PRODUCE -->
+<div class="bg-gradient-to-b from-gray-50 to-gray-100 p-6 rounded-lg shadow-lg border-1 border-gray-400">
+  <p class="text-3xl font-bold text-gray-900 mb-4">Produce</p>
+  <div class="space-y-3 text-left text-sm">
+    <div class="mb-3">
+      <code class="text-xs bg-gray-200 px-2 py-1 rounded">Agents execute</code>
+    </div>
+    <ul class="space-y-2">
+      <li>Create BillingService.ts</li>
+      <li>Update User model</li>
+      <li class="text-red-600">✗ Tests fail - missing config</li>
+      <li>Update docs with config steps</li>
+    </ul>
+    <div class="mt-3 text-xs text-green-600">
+      ✓ Fixed & all tests passing
+    </div>
   </div>
-
-  <div>
-    <p class="text-gray-600">[plan] generating task graph</p>
-    <p class="text-emerald-600">• create <code>BillingService</code><br>
-    • update <code>User</code> schema<br>
-    • write integration tests<br>
-    • update docs</p>
-  </div>
-
-  <div>
-    <p class="text-gray-600">[run] spawning 4 agents</p>
-    <p class="text-emerald-600">agent-1 → code<br>
-    agent-2 → tests<br>
-    agent-3 → docs<br>
-    agent-4 → review</p>
-  </div>
+</div>
 </v-clicks>
 </div>
 
-</div>
-
 <v-click>
-<div class="mt-6 bg-purple-50 p-4 rounded shadow text-center">
-  <p class="text-lg text-gray-900 font-semibold">You controlled the workflow.<br/>Claude supplied the compute.</p>
+<div class="mt-4 bg-purple-50 p-2 rounded-lg shadow-lg border-1 border-purple-500 text-center">
+  <p class="text-lg text-gray-900 font-semibold">You Controlled the Workflow ... Claude Supplied the Compute.</p>
 </div>
 </v-click>
+
+<!--
+This demo shows the actual Claude Code commands in action. Notice how each phase builds on the previous:
+
+1. **Prime**: We load context once, not repeatedly
+2. **Plan**: Claude understands your codebase patterns and conventions
+3. **Produce**: Multiple agents work in parallel, following your standards
+
+The key insight: You're not writing prompts, you're orchestrating intelligent agents.
+-->

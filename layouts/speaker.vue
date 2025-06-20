@@ -35,7 +35,7 @@
 
 /* Enhanced typography for better readability */
 .slidev-layout.speaker :deep(h1) {
-  @apply text-5xl font-bold text-obsidian-black mb-2;
+  @apply text-4xl font-bold text-obsidian-black mb-2;
   font-family: 'StyreneB-Bold-Trial', system-ui, sans-serif;
   letter-spacing: -0.02em;
 }
