@@ -39,7 +39,7 @@ layout: default
     <!-- Claude Code - 50% -->
     <div class="absolute -bottom-12 left-[50%] transform -translate-x-1/2">
       <div class="w-4 h-4 bg-purple-500 rounded-full mx-auto mb-1 ring-4 ring-purple-200"></div>
-      <div class="bg-purple-100 px-3 py-1 rounded shadow-lg text-sm font-bold border-2 border-purple-500">Claude Code</div>
+      <div class="bg-purple-100 px-3 py-1 rounded shadow-lg text-sm font-bold border-1 border-purple-500">Claude Code</div>
     </div>
     <!-- Aider - 85% -->
     <div class="absolute -bottom-8.5 left-[85%] transform -translate-x-1/2">
@@ -96,7 +96,7 @@ layout: default
 
 <v-click at="4">
 <div class="text-center mt-8">
-  <p class="text-xl font-semibold">So what tool bridges the gap?</p>
+  <p class="text-xl font-semibold">What Tool Bridges the Gap?</p>
 </div>
 </v-click>
 

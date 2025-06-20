@@ -8,17 +8,17 @@ layout: center
 <!-- Rewritten as a 3-column grid for clarity and emphasis -->
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-6">
   <v-clicks>
-    <div class="bg-white border-emerald-600 border-2 rounded-lg p-4 text-sm text-center flex items-center justify-center">
+    <div class="bg-white border-emerald-600 border-1 rounded-lg p-4 text-sm text-center flex items-center justify-center">
       <p>
         Your deep understanding of systems...<br/><br/> <span class="font-semibold text-xl">becomes <span class=" text-emerald-600 text-2xl">MORE</span> valuable</span>
       </p>
     </div>
-    <div class="bg-white border-sky-600 border-2 rounded-lg p-4 text-sm text-center flex items-center justify-center">
+    <div class="bg-white border-sky-600 border-1 rounded-lg p-4 text-sm text-center flex items-center justify-center">
       <p>
         Your ability to architect solutions...<br/><br/> <span class="font-semibold text-xl">becomes <span class=" text-sky-600 text-2xl">MORE</span> critical</span>
       </p>
     </div>
-    <div class="bg-white border-amber-600 border-2 rounded-lg p-4 text-sm text-center flex items-center justify-center">
+    <div class="bg-white border-amber-600 border-1 rounded-lg p-4 text-sm text-center flex items-center justify-center">
       <p>
         Your judgment about trade-offs...<br/><br/> <span class="font-semibold text-xl">becomes <span class=" text-amber-600 text-2xl">MORE</span> essential</span>
       </p>
@@ -29,7 +29,7 @@ layout: center
 <v-click>
   <div class="grid grid-cols-5 gap-4">
     <div></div>
-    <div class="col-span-3 bg-white border-red-600 border-2 rounded-lg p-4 text-lg text-gray-900 font-bold text-center">
+    <div class="col-span-3 bg-white border-red-600 border-1 rounded-lg p-4 text-lg text-gray-900 font-bold text-center">
       <p>
         AI Doesn't Replace Expertise. <br/><br/>It <span class="text-red-600 font-semibold text-xl">AMPLIFIES</span> it.
       </p>
