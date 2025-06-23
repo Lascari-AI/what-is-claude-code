@@ -3,7 +3,7 @@ theme: ../
 layout: default
 ---
 
-<div class="text-4xl text-center mb-6 text-gray-900 font-bold">What We'll Cover Today</div>
+<div class="text-4xl text-center mb-12 text-gray-900 font-bold">What We'll Cover Today</div>
 
 <div class="grid grid-cols-3 gap-6">
 <v-clicks>
@@ -21,14 +21,10 @@ layout: default
     <div class="space-y-1">
       <p class="text-xs font-semibold text-purple-600 uppercase tracking-wide">Understanding Claude Code</p>
       <ul class="text-sm space-y-1">
-        <li>• What it actually is</li>
-        <li>• Where it fits in the ecosystem</li>
-        <li>• Its core philosophy</li>
+        <li>What It Actually Is</li>
+        <li>Where It Fits in the Ecosystem</li>
+        <li>Its Core Philosophy</li>
       </ul>
-    </div>
-    <div class="space-y-1 mt-3">
-      <p class="text-xs font-semibold text-purple-600 uppercase tracking-wide">Beyond the Hype</p>
-      <p class="text-sm leading-tight">Real engineering perspective on AI coding tools</p>
     </div>
   </div>
 </div>
@@ -47,14 +43,10 @@ layout: default
     <div class="space-y-1">
       <p class="text-xs font-semibold text-sky-600 uppercase tracking-wide">What Makes It Different</p>
       <ul class="text-sm space-y-1">
-        <li>• Agentic with visibility</li>
-        <li>• Engineer-friendly control</li>
-        <li>• Production-ready approach</li>
+        <li>Agentic with Visibility</li>
+        <li>Engineer-Friendly Control</li>
+        <li>Production-Ready Approach</li>
       </ul>
-    </div>
-    <div class="space-y-1 mt-3">
-      <p class="text-xs font-semibold text-sky-600 uppercase tracking-wide">The Sweet Spot</p>
-      <p class="text-sm leading-tight">Between full autonomy and manual control</p>
     </div>
   </div>
 </div>
@@ -73,14 +65,10 @@ layout: default
     <div class="space-y-1">
       <p class="text-xs font-semibold text-emerald-600 uppercase tracking-wide">Perfect For</p>
       <ul class="text-sm space-y-1">
-        <li>• Senior engineers</li>
-        <li>• Complex codebases</li>
-        <li>• Production systems</li>
+        <li>Senior Engineers</li>
+        <li>Complex Codebases</li>
+        <li>Large Learning Curve</li>
       </ul>
-    </div>
-    <div class="space-y-1 mt-3">
-      <p class="text-xs font-semibold text-emerald-600 uppercase tracking-wide">Key Question</p>
-      <p class="text-sm leading-tight">Can AI enhance your expertise without replacing it?</p>
     </div>
   </div>
 </div>
