@@ -4,10 +4,10 @@ layout: title
 ---
 
 ::title::
-Claude Code
+What is Claude Code?
 
 ::subtitle::
-What It Is and Why You Should Care
+...and Why You Should Care
 
 ::qr::
 <div class="text-sm text-gray-500">QR Code</div>
