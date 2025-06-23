@@ -31,25 +31,8 @@ jobs:
       - name: Install dependencies
         run: nci
 
-      - name: Compile slides
-        run: nr build:slides
-
       - name: Build
-        run: |
-          # Try the original build command first
-          nr build --base /${{github.event.repository.name}}/ || {
-            echo "Build with base path failed, trying without base path..."
-            nr build
-          }
-
-      - name: Check build output
-        run: |
-          echo "Contents of current directory:"
-          ls -la
-          echo "Looking for dist directory:"
-          ls -la dist/ || echo "dist directory not found"
-          echo "Looking for other possible output directories:"
-          find . -name "*.html" -type f | head -10
+        run: nr build --base /${{github.event.repository.name}}/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
