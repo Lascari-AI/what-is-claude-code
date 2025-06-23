@@ -1,6 +1,7 @@
 ---
 theme: ../
 layout: title
+link: https://lascari-ai.github.io/what-is-claude-code/
 ---
 
 ::title::
@@ -8,9 +9,6 @@ What is Claude Code?
 
 ::subtitle::
 ...and Why You Should Care
-
-::qr::
-<div class="text-sm text-gray-500">QR Code</div>
 
 
 
