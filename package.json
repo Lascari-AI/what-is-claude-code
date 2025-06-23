@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build --base /what-is-claude-code/",
+    "build": "slidev build ./index.md",
     "build:slides": "node scripts/build.ts",
     "dev": "slidev ./index.md --open",
     "export": "slidev export"
