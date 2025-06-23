@@ -5,7 +5,7 @@ layout: speaker
 
 # About Me
 
-<div class="text-xl text-gray-600 mb-2">
+<div class="text-xl mb-2">
 Applied AI Engineer & Consultant
 </div>
 

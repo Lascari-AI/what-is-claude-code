@@ -31,7 +31,7 @@ layout: default
 
 <!-- THE DIFFERENTIATOR -->
 <div class="bg-gradient-to-b from-gray-50 to-gray-100 px-5 py-4 rounded-lg shadow-lg border-1 border-gray-400">
-  <div class="flex items-center gap-2 mb-3">
+  <div class="flex items-center gap-2 mb-3 justify-center">
     <div class="w-10 h-10 rounded-lg bg-sky-500 flex items-center justify-center">
       <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
