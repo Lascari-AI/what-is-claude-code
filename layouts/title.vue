@@ -23,7 +23,7 @@ defineProps({
             <slot name="qr-text">Scan to Follow Along</slot>
           </div>
           <div class="w-56 h-56 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl flex items-center justify-center shadow-inner">
-            <img v-if="link" :src="`https://api.qrserver.com/v1/create-qr-code/?size=224x224&data=${encodeURIComponent(link)}`" alt="QR Code" class="rounded" />
+            <img v-if="link" :src="`https://api.qrserver.com/v1/create-qr-code/?size=224x224&data=${encodeURIComponent(link)}`" alt="QR Code" class="rounded-lg" />
             <slot v-else name="qr" />
           </div>
         </div>
