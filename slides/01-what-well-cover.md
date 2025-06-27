@@ -23,7 +23,6 @@ layout: default
       <ul class="text-sm space-y-1">
         <li>What It Actually Is</li>
         <li>Where It Fits in the Ecosystem</li>
-        <li>Its Core Philosophy</li>
       </ul>
     </div>
   </div>
@@ -45,7 +44,6 @@ layout: default
       <ul class="text-sm space-y-1">
         <li>Agentic with Visibility</li>
         <li>Engineer-Friendly Control</li>
-        <li>Production-Ready Approach</li>
       </ul>
     </div>
   </div>
@@ -59,15 +57,14 @@ layout: default
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
       </svg>
     </div>
-    <p class="text-2xl font-bold">Is It For You?</p>
+    <p class="text-2xl font-bold">Who Is It For?</p>
   </div>
-  <div class="space-y-3 text-left">
+  <div class="space-y-3 text-left mt-9.75">
     <div class="space-y-1">
-      <p class="text-xs font-semibold text-emerald-600 uppercase tracking-wide">Perfect For</p>
+      <p class="text-xs font-semibold text-emerald-600 uppercase tracking-wide">Complex, But Powerful</p>
       <ul class="text-sm space-y-1">
-        <li>Senior Engineers</li>
-        <li>Complex Codebases</li>
         <li>Large Learning Curve</li>
+        <li>Senior Engineers</li>
       </ul>
     </div>
   </div>
